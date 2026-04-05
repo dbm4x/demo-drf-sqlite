@@ -38,5 +38,5 @@ class User(models.Model):
 
 
     def __str__(self):
-        return f"{self.nombre} ({self.rol})"
+        return f"{self.name} ({self.role})"
     
